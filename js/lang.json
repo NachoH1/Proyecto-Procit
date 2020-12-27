@@ -1,0 +1,31 @@
+{
+  "es":{
+    "prueba1":"Inicio",
+    "prueba2":"Nosotros",
+    "prueba3":"VIDEOS",
+    "prueba4":"Contacto",
+    "prueba5":"PROCIT UTEM, es un Centro de Innovación y Transferencia Tecnológica de la Universidad Tecnológica Metropolitana. La función principal de Procit es la investigación aplicada e interdisciplinaria en tecnologías digitales para la innovación de productos, servicios y aplicaciones, por lo que su carácter interdisciplinario lo hace desarrollar una vinculación interfacultad.",
+    "prueba6":"INFRAESTRUCTURA",
+    "prueba7":"PROCIT cuenta con 2 laboratorios para el desarrollo de experimentación (Diseño, Ingeniería Electrónica e Informática), un Centro de Fabricación Digital para impresión 3D, corte laser, entre otras. Instrumentación para fabricación de circuitos electrónicos e infraestructura informática.",
+    "prueba8":"Acerca de Nosotros",
+    "prueba9":"PROYECTOS",
+    "prueba10":"DIRECCION",
+    "prueba11":"CONTACTO",
+    "prueba12":"Redes Sociales"
+      
+  },
+  "en":{
+    "prueba1":"Home",
+    "prueba2":"US",
+    "prueba3":"MOVIES",
+    "prueba4":"Contact",
+    "prueba5":"PROCIT UTEM, is a Center for Innovation and Technology Transfer of the Metropolitan Technological University. The main function of Procit is the applied and interdisciplinary research in digital technologies for the innovation of products, services and applications, so its interdisciplinary nature makes it develop an interfacult relationship.",
+    "prueba6":"INFRASTRUCTURE",
+    "prueba7":"PROCIT has 2 laboratories for the development of experimentation (Design, Electronic Engineering and Computer Science), a Digital Manufacturing Center for 3D printing, laser cutting, among others. Instrumentation for the manufacture of electronic circuits and computer infrastructure.",
+    "prueba8":"About Us",
+    "prueba9":"PROJECTS",
+    "prueba10":"DIRECTION",
+    "prueba11":"CONTACT",
+    "prueba12":"Social Networks"
+  }
+}

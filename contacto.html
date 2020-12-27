@@ -1,0 +1,204 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="icon" href="img/favicon-32x32.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="hero4">
+            <button class="translate" id="es">Español</button>
+            <button class="translate" id="en">English</button>
+            <div class="contenido-header">
+                <nav>
+                    <input type="checkbox" id="nav" class="hidden">
+                    <label for="nav" class="nav-btn">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </label>
+                    <div class="logo">
+                        <a href="index.html"><img src="img/logoprocitdefinitivo.png" class="logotipo"></a>
+                    </div>
+                    <div class="nav-wrapper">
+                        <ul>
+                            <li><a href="index.html" class="lang" key="prueba1">inicio</a></li>
+                            <li><a href="nosotros.html" class="lang" key="prueba2">Nosotros</a></li>
+                            <li><a href="videos.html" class="lang" key="prueba3">VIDEOS</a></li>
+                            <li><a href="contacto.html"class="lang" key="prueba4" class="activo">Contacto</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <!--informacion-->
+    <div class="contenedor">
+        <main class="contenido-principal clearfix">
+            <h2 class="encabezado">Alguna pregunta<span>Contactanos!</span><img src="img/planta.svg" class="planta"></h2>
+
+            <div class="contenedor-grid">
+                <p class="center">Los Campos marcados con <span>*</span> Son Obligatorios </p>
+                
+                <form class="reserva-contacto" method="post" id="contact-form">
+                    <h2 class="verde center"> Formulario </h2>
+                    
+                    <div class="campo">
+                        <input type="text" name="from_name" placeholder="Nombre*" required>
+                    </div>
+                    
+                    <div class="campo">
+                        <input type="email" name="from_email" placeholder="Email*" required>
+                    </div>
+                    
+                    <div class="campo">
+                        <input type="tel" name="from_number" placeholder="Telefono*" required>
+                    </div>
+                    
+                    <div class="campo">
+                        <input type="text" name="subject" placeholder="Asunto*" required>
+                    </div>
+                    
+                    <div class="campo">
+                        <textarea name="message"
+                        placeholder="Mensaje*"></textarea>
+                   
+                    </div>
+                    
+                    <input type="submit" name"enviar"
+                    class="button">
+                    
+                </form>
+            
+            
+            
+            </div>
+        </main>
+    </div>
+
+
+
+
+    <!-- Footer -->
+
+    <footer class="site-footer">
+        <div class="contenedor clearfix">
+            <div class="footer-informacion">
+                <h3>DIRECCION <span> PROCIT</span>
+                </h3>
+                <p>Dieciocho 414, Santiago.
+                    Región Metropolitana
+                </p>
+            </div>
+            <div class="ultimos-tweets">
+                <h3>NUESTRO <span>CONTACTO</span></h3>
+                <ul>
+                    <li> Email: proteinlab@proteinlab.cl</li>
+                    <li>Teléfono: +56 2 2787 7347  </li>
+                </ul>
+            </div>
+
+            <!-- Redes Sociales -->
+
+            <div class="menu">
+                <h3>Redes <span>Sociales</span></h3>
+                <nav class="redes-sociales">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </nav>
+            </div>
+        </div>
+        <p class="copyright">Copyright &copy; 2020 Todos los Derechos Reservados </p>
+    </footer>
+
+
+
+
+
+
+
+    <!-- Add your site or application content here -->
+    <p>----------------PAGINA WEB INGENIERIA DE SOFTWARE-------------------
+    </p>
+    <p>
+        Alumno: José Ignacio Hervas Labarca.
+    </p>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/script.js" charset="utf-8"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+
+    </script>
+    <!-- contact -->
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_uAd7ueL6X4ipAV72iLfNv');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+         let formulario = document.getElementById('contact-form')
+                formulario.addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('service_r7apzwt', 'contact_form', this)
+                    .then(function() {
+                        alert('SUCCESS!');                    
+                        formulario.reset();
+                    }, function(error) {
+                        alert('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+</body>
+
+</html>
